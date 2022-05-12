@@ -1,0 +1,111 @@
+.grid-container {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .grid-item {
+    position: relative;
+    font-size: 25px;
+    padding: 20px;
+    padding-top: 50px;
+    background-color: #379AD6;
+    color: #222;
+    border: 1px solid white;
+  }
+  
+  .grid-item:nth-child(odd) {
+    background-color: #5bbdfa;
+  }
+  
+  .grid-item::before {
+    content: 'Grid Item';
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    top: 10px;
+    left: 15px;
+  }
+  
+  .grid-item::after {
+    position: absolute;
+    font-size: 25px;
+    top: 10px;
+    right: 15px;
+    font-weight: bold;
+  }
+  
+  .grid-item-1::after {
+    content: '1 - 2fr';
+  }
+  
+  .grid-item-2::after {
+    content: '2 - 1fr';
+  }
+  
+  .grid-item-3::after {
+    content: '3 - 2fr';
+  }
+  
+  .grid-item-4::after {
+    content: '4';
+  }
+  
+  .grid-item-5::after {
+    content: '5';
+  }
+  
+  .grid-item-6::after {
+    content: '6';
+  }
+  
+  .grid-item-7::after {
+    content: '7';
+  }
+  
+  .grid-item-8::after {
+    content: '8';
+  }
+  
+  .grid-item-9::after {
+    content: '9';
+  }
+  
+  .grid-item-10::after {
+    content: '10';
+  }
+  
+  .grid-item-11::after {
+    content: '11';
+  }
+  .grid-item-12::after {
+    content: '12';
+  }
+  
+  .grid-item-13::after {
+    content: '13';
+  }
+  
+  .grid-item-14::after {
+    content: '14';
+  }
+  
+  .grid-item-15::after {
+    content: '15';
+  }
+  
+  .grid-item-16::after {
+    content: '16';
+  }
+  
+  .grid-item-17::after {
+    content: '17';
+  }
+  
+  .grid-item-18::after {
+    content: '18';
+  }
+  
+  .grid-item-19::after {
+    content: '19';
+  }

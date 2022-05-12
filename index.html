@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="background_styles.css">
+</head>
+
+<body>
+
+    <h1>Grid Academy</h1>
+    <h2>grid-template-columns</h2>
+
+    <h4>grid-template-columns: 2fr 1fr;</h4>
+    <h5>Creates grid template with 2 columns --- first column takes up 66% space, 2nd column takes up 33% space</h5>
+
+    <div class="grid-container grid-container-1">
+        <div class="grid-item grid-item-1"></div>
+        <div class="grid-item grid-item-2"></div>
+        <div class="grid-item grid-item-3"></div>
+    </div>
+
+    <h4>grid-template-columns: repeat(3, 300px);</h4>
+    <h5>Creates grid template with 3 columns, each with 300px width <h5>
+
+    <div class="grid-container grid-container-2">
+        <div class="grid-item grid-item-4"></div>
+        <div class="grid-item grid-item-5"></div>
+        <div class="grid-item grid-item-6"></div>
+    </div>
+
+    <h4>grid-auto-rows: 150px;</h4>
+    <h5>No matter how many rows there are, they will always be 100px tall<h5>
+
+    <div class="grid-container grid-container-3">
+        <div class="grid-item grid-item-7"></div>
+        <div class="grid-item grid-item-8"></div>
+        <div class="grid-item grid-item-9"></div>
+    </div>
+
+    <h4>grid-auto-rows: minmax(150px, auto);</h4>
+    <h5>minmax allows for setting a minimum row height, and preventing text overspilling container by having max as auto<h5>
+
+    <div class="grid-container grid-container-4">
+        <div class="grid-item grid-item-7"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ab fugiat? Commodi, recusandae. Quisquam, repudiandae itaque? Maiores ullam nesciunt sed minus vel voluptas sapiente assumenda adipisci cumque, perferendis dolorum exercitationem?</p></div>
+        <div class="grid-item grid-item-8"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit sit ad necessitatibus placeat distinctio.</p></div>
+        <div class="grid-item grid-item-9"><p>min - 150px</p></div>
+    </div>
+
+    
+    <h4>grid-gaps</h4>
+    
+    <div class="gap-box">
+
+    <div class="grid-container-5">
+        <p> row-gap: 30px;</p>
+        <div class="grid-item grid-item-4"></div>
+        <div class="grid-item grid-item-5"></div>
+        <div class="grid-item grid-item-6"></div>
+        <div class="grid-item grid-item-4"></div>
+        <div class="grid-item grid-item-5"></div>
+        <div class="grid-item grid-item-6"></div>
+        <div class="grid-item grid-item-4"></div>
+        <div class="grid-item grid-item-5"></div>
+        <div class="grid-item grid-item-6"></div>
+    </div>
+
+    <div class="grid-container-6">
+        <p> column-gap: 30px;</p>
+        <div class="grid-item grid-item-4"></div>
+        <div class="grid-item grid-item-5"></div>
+        <div class="grid-item grid-item-6"></div>
+        <div class="grid-item grid-item-4"></div>
+        <div class="grid-item grid-item-5"></div>
+        <div class="grid-item grid-item-6"></div>
+        <div class="grid-item grid-item-4"></div>
+        <div class="grid-item grid-item-5"></div>
+        <div class="grid-item grid-item-6"></div>
+    </div>
+
+    <div class="grid-container-7">
+        <p> gap: 30px;</p>
+        <div class="grid-item grid-item-4"></div>
+        <div class="grid-item grid-item-5"></div>
+        <div class="grid-item grid-item-6"></div>
+        <div class="grid-item grid-item-4"></div>
+        <div class="grid-item grid-item-5"></div>
+        <div class="grid-item grid-item-6"></div>
+        <div class="grid-item grid-item-4"></div>
+        <div class="grid-item grid-item-5"></div>
+        <div class="grid-item grid-item-6"></div>
+    </div>
+
+</div>
+    
+
+</body>
+
+</html>
